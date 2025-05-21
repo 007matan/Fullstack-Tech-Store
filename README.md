@@ -30,3 +30,23 @@ This app is built with a robust fullstack architecture:
    ```bash
    git clone https://github.com/YourUsername/Fullstack-Tech-Store.git
    cd Fullstack-Tech-Store
+   
+2. Install dependencies for both frontend and backend
+   cd client
+   npm install
+   cd ../server
+   npm install
+
+3.Set up environment variables
+   MONGO_URI=your_mongo_connection_string
+   OPENAI_API_KEY=your_openai_key
+
+4.Start the app
+   cd client
+   npm start
+
+   cd server
+   npm run dev
+
+
+   
